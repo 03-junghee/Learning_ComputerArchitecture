@@ -1,0 +1,30 @@
+<SEVEN GREAT IDEAS IN COMPUTER ARCHITECTURE>
+
+- Use abstraction to simplify Design
+    -> Computer architects and programmers should invent techniques to make themselves more productive.
+    -> Abstraction helps to characterize the design at different levels of representation.
+    -> lower-level details are hidden to offer a simpler model at higher levels.
+
+- Make the common case fast
+    -> Making the common case fast enhances performance better than optimizing the rare case.
+    -> This common sense advice implies that you know what the common case is, which is only possible with careful experimentation.
+
+- Performance via parallelism
+    -> Since the dawn of computing, computer architects have offered designs that get more performance by computing operations in parallel.
+
+- Performance via pipelining
+    -> A particuler pattern of parallelism is so prevalent in computer architecture.
+    -> For example, when people carry water, they could much more quickly move buckets up the chain instead of individuals running back and forth.
+
+- Performance via prediction
+    -> Guessing and starting working are fater on average than waiting until you know for sure, assuming that the mechanism to recover from a misprediction is not too expensive and your prediction is relatively accurate.
+
+- Hierarchy of memories
+    -> Programmers want the memory to be fast, large, and cheap, as memory speed often shapes performance, capacity limits the size of problems that can be solved, and the cost of memory today is often the majority of computer cost.
+    -> Hierarchy of memories shows the fastest, smallest, and the most expensive memory per bit at the top of the hierarchy and the slowest, largest, and cheapest per bit at the bottom.
+
+- Dependability via redundancy
+    -> Computers not only need to be fast but also need to be dependable.
+    -> Since any physical device can fail, we make systems dependable by including redundant components that can take over when a failure occurs and to help detect failures.
+
+<MOORE'S LAW>
